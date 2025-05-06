@@ -1,12 +1,16 @@
-<script setup>
-</script>
-
 <template>
-    <header>
-        <h1>Welcome to my Todo App</h1>
-    </header>
+    <div class="flex min-h-screen items-center justify-center">
+        <TodoList />
+    </div>
 </template>
 
-<style scoped>
-    
-</style>
+<script>
+    import TodoList from './components/Todo-list.vue';
+
+    export default {
+        name: 'App',
+        components: {
+            TodoList
+        }
+    }
+</script>

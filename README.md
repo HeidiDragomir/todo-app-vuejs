@@ -1,5 +1,50 @@
-# Vue 3 + Vite
+# My Todo App 📝
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This is a simple and functional Todo App built with Vue.js 3. It allows users to add, edit, delete, and toggle the status of tasks. Tasks are persisted using the browser's `localStorage` so they remain even after refreshing the page.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+![My Todo App](./src/assets/the-app.png)
+
+---
+
+## 🛠 Built With
+
+- [Vue.js 3](https://vuejs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- LocalStorage API
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone the repository:**
+
+   ```sh
+   git clone git@github.com:HeidiDragomir/todo-app-vuejs.git
+
+   ```
+
+2. **Navigate to the project folder:**
+
+   ```sh
+   cd todo-app-vuejs
+
+   ```
+
+3. **Install dependencies:**
+
+   ```sh
+   npm install
+
+   ```
+
+4. **Start the development server:**
+
+   ```sh
+   npm run dev
+
+   ```
+5. **Open in browser:**
+
+   Visit [http://localhost:5173](http://localhost:5173) to view the app.
+
+---
