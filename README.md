@@ -2,7 +2,7 @@
 
 This is a simple and functional Todo App built with Vue.js 3. It allows users to add, edit, delete, and toggle the status of tasks. Tasks are persisted using the browser's `localStorage` so they remain even after refreshing the page.
 
-<img src="./src/assets/the-app.png" alt="App Screenshot" width="400"/>
+<img src="./src/assets/todo-app.png" alt="App Screenshot" width="400"/>
 
 ---
 
